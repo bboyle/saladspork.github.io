@@ -5,7 +5,7 @@ body {
 	padding: 0;
 }
 
-h1 {
+h1, h2 {
 	font-family: 'Nixie One', cursive;
 	color: #323232;
 	font-size: 58px;
@@ -14,7 +14,7 @@ h1 {
 		
 	}
 
- h2 {
+ h3 {
 	font-family: 'Dosis', sans-serif;
 	color: #323232;
 	font-size: 18px;
@@ -147,13 +147,15 @@ nav a:hover {
 
 
 
-#experience h3 {
+#experience header span {
 	font-family: 'Dosis', sans-serif;
     color: #323232;
     font-size: 12px;
+    font-weight: bold;
+    display: block;
     text-align: center;
     padding: 0;
-    margin-top: 0;
+    margin: 0 0 1em;
 	
 }
 
