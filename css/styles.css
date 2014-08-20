@@ -1,0 +1,265 @@
+
+/** General Styling **/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Nixie One', cursive;
+	color: #323232;
+	font-size: 58px;
+	text-align: center;
+	padding-bottom: 0px;
+		
+	}
+
+ h2 {
+	font-family: 'Dosis', sans-serif;
+	color: #323232;
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	
+}
+
+.sen
+{
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	width: 800px;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+.sen a {
+	text-decoration: none;
+	color: #f2d670;
+	
+	
+}
+/** End General Styling**/
+
+/** Nav **/
+nav {
+  position: fixed;
+  top: 5px;
+  width: 100%;
+  text-align: left;
+}
+nav li {
+	display: inline;
+}
+
+nav ul li a {	
+	color: #f2d670;
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+	padding-right: 20px;
+	text-decoration: none;
+			}
+
+nav a:hover {
+	color: brown;
+	text-decoration: none;
+}
+
+/** End Nav **/
+
+/** Header **/
+
+.header-homepage {
+	background: url(../images/background.jpg) 0 0 no-repeat;
+	height: 600px;
+	background-size: 100%;
+    padding: 0px;
+    margin: 0;
+	margin-bottom: 50px;
+}
+
+.header-contents {
+	text-align: center;
+	color: white;
+	padding: 100px;
+}
+
+.header-contents p {
+	font-family: 'Nixie One', cursive;
+	color: #f2d670;
+	font-size: 38px;
+	}
+
+.header-contents h1 {
+		font-family: 'Nixie One', cursive;
+	    color: #f46151;
+	    font-size: 58px;
+}
+
+
+/** End Header **/
+
+
+/** about **/
+#about img {
+	border: 5px solid #f46151;
+	 width: 200px;
+	 height: 200px;
+	 display: block;
+	 margin: auto;
+	  padding-top: 0px;
+	 border-radius: 100%;
+}
+
+
+#about{
+	padding-bottom: 15px;
+}
+
+#about h2 
+{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	color: #f46151 ;
+	
+}
+#about p {
+ text-align: center;
+ padding-bottom: 2px;
+ font-family: 'Dosis', sans-serif;
+ margin:auto;
+ width: 500px;
+ word-wrap: normal;
+ font-size: 16px;
+ 
+}
+/** End about **/
+
+/** experience **/
+#experience {
+    background: #f46151;
+	padding-bottom: 15px;
+	color: #333538;
+
+	
+}
+
+
+
+#experience h3 {
+	font-family: 'Dosis', sans-serif;
+    color: #323232;
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+	
+}
+
+
+/** End experience **/
+	
+/**Education**/
+#education {
+	padding-bottom: 15px;
+	
+}
+
+#education p {
+font-family: 'Dosis', sans-serif;
+color: #323232;
+font-size: 16px;
+text-align: center;
+width: 800px;
+margin: auto;}
+
+
+#education ul {
+	columns: 2;
+	 -webkit-columns: 2;
+	 -moz-columns: 2;
+	font-family: 'Dosis', sans-serif;
+	color: #323232;
+	font-size: 12px;
+width:  440px;
+text-align: left;
+margin: auto;
+}
+
+p.williamson {
+font-family: 'Dosis', sans-serif;
+color: #323232;
+font-size: 12px;
+width: 800px;
+}
+
+
+/** end education **/
+
+/** achievements **/
+
+#achievements {
+	background: #f46151;
+	margin-top: 0;
+    padding-bottom: 10px;
+	color: #333538;
+	text-align: center;
+}
+
+/** end achievements **/
+
+/** Interests **/
+
+#interests ul {
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 50px;
+}
+
+#interests ul li {
+	width: 250px;
+	margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+  	vertical-align: top;
+}
+
+#interests p {
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	width: 200px;
+	text-align: center;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+#interests a {
+	text-decoration: none;
+	color: #f46151;
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+}
+
+#interests span 
+{
+    display: block;
+}
+	
+
+
+/** End interests **/
+
+footer {
+	background: #f46151;
+	font-family: 'Dosis', sans-serif;
+	color: #323232;
+	font-size: 16px;
+	text-align: center;
+	width: auto;
+}
+
+
+
+
